@@ -189,4 +189,4 @@ st.divider()
 ganancias = pd.read_csv('./Datos/Ganancias_id.csv')
 
 st.subheader("Ganancias")
-st.bar_chart(ganancias,x="Ciudad",y="Ganancia",color="Ciudad)
+st.bar_chart(ganancias,x="Ciudad",y="Ganancia",color="Ciudad")
