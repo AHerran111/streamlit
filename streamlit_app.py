@@ -188,7 +188,8 @@ st.divider()
 
 ganancias = pd.read_csv('./Datos/Ganancias_id.csv')
 
-st.bar_chart(ganancias)
+st.bar_chart(ganancias,x="Ciudad",y="Ganancia")
+
 
 """
 colum_izq.subheader('Histograma')
