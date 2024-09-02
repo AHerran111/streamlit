@@ -107,7 +107,7 @@ st.divider()
 #------------------------------------------------------------------
 #----- Configuración de los Elementos del Panel Central -----------
 #------------------------------------------------------------------
-
+colum_der.subheader(ganan_selected)
 #----- HISTOGRAMA POR MES -----------------------------------------
 #Definición de las columnas
 colum_izq, colum_der = st.columns(2)
